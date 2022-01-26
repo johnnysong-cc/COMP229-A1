@@ -19,37 +19,69 @@
 </head>
 
 <body>
-    <header id="header_wrapper">
+    <!--header begins-->
+    <header>
         <div id="header" class="clearfix">
             <div class="row" id="container">
-                <a href="index.htm" id="logo">Johnny's WEB</a>
+                <a href="index.htm"><img id="logo" src="img/logo.png" alt="logo"></a>
                 <nav id="navigation">
                     <ul id="navList">
-                        <li><a href="#container">Home</a></li>
+                        <li><a href="#slider">Home</a></li>
                         <li><a href="#about">About Me</a></li>
-                        <li><a href="#service">My Services</a></li>
                         <li><a href="#project">My Projects</a></li>
+                        <li><a href="#service">My Services</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
+    <!--header ends-->
+
+    <!--main part begins-->
     <main>
+        <section id="welcome">
+            <div id="slider">
+                <p>WELCOME TO MY WEBSITE</p>
+            </div>
+        </section>
+
+        <!--About Me section begins-->
         <section id="about">
             <div>
-                <h3>About Me</h3>
-                <div class="separator"></div>
-                <dt>Profile</dt>
-                <dd></dd>
-                <dt>Introduction</dt>
-                <dd>An ex-academic worker and ex-medical laboratory technologist for the first decade of my career, I'm currently learning IT skills at Centennial College with the intent to pursue a new chapter of career in the interdisciplinary field of
-                    medical science and IT technologies. I believe this unique choice would bring in comparative advantage and adapt myself to a more perspective future.</dd>
+                <h2>About Me</h2>
+                <hr class="lightbg">
+
+                <div class="profile">
+                    <figure>
+                        <img src='img/bust.png' height=240px alt='bust'>
+                        <figcaption>Zhiyang Song</figcaption>
+                    </figure>
+                    <div id="skills">
+                        <p id="skillTitle">Highlight of Skills</p>
+                        <ul>
+                            <li><span class="catalog">Programming </span>: C#, Java, HTML5, CSS, JavaScript (ES6), VBA for Excel, Markdown</li>
+                            <li><span class="catalog">Platforms</span>: Linux, macOS, Windows, Docker, Node.js, GitHub</li>
+                            <li><span class="catalog">Database and Data Analysis</span>: Oracle PL/SQL, MongoDB, Tableau, RapidMiner, Excel/Numbers</li>
+                            <li><span class="catalog">Virtualization</span>: QEMU/KVM, libvirt, Virtual Box, Parallel Desktops</li>
+                            <li><span class="catalog">Utility Software</span>: Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Microsoft 365</li>
+                            <li><span class="catalog">Health Science Knowledge</span>: Immunology, Immunohematology, Molecular Biology, Microbiology, Clinical Laboratory Technology, Pharmacology, Pathology, Physiology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="intro">
+                <p>An ex-academic worker and ex-medical laboratory technologist for the first decade of my career, I'm currently learning IT skills at Centennial College with the intent to pursue a new chapter of career in the interdisciplinary field of
+                    medical science and IT technologies. I believe this unique choice would bring in comparative advantage and adapt myself to a more perspective future.</p>
                 <a href="docs/Resumé.pdf">Click here to download my Resumé in PDF</a>
             </div>
         </section>
+        <!--About Me section ends-->
+
+        <!--Project section begins-->
         <section id="project">
-            <h2>Projects done:</h2>
+            <h2 class="darkbg">Projects Done</h2>
+            <hr class="darkbg">
             <div id="project1">
                 <dt>Automatic Blood Type Generator Excel Workbook</dt>
                 <dd></dd>
@@ -62,28 +94,47 @@
                 <dt>Establishment of a library of rare blood types for local donors</dt>
                 <dd></dd>
         </section>
-        <section id="service"></section>
+        <!--Project section ends-->
+
+        <!--Service section begins-->
+        <section id="service">
+            <h2>Services</h2>
+            <hr class="lightbg">
+            <div class="module">
+                <p>Extended RBC Typing</p>
+            </div>
+            <div class="module">
+                <p>Platelet Antibody Detection</p>
+            </div>
+            <div class="module">
+                <p>Customization of Blood Banking Online Systems</p>
+            </div>
+        </section>
+        <!--Service section ends-->
+
+        <!--Contact section begins-->
         <section id="contact">
             <div class="secTitle">
-                <h1>Let's Get In Touch</h1>
-                <div class="separator"></div>
-                <p>...</p>
+                <h2 class="darkbg">Let's Get In Touch</h2>
+                <hr class="darkbg"></hr>
                 <form id="contactForm">
                     <input class="inputLine" type="text" name="fullName" placeholder="Type in your full name here..." required>
                     <input class="inputLine" type="text" name="emailAddr" placeholder="Type in your email address here..." required>
                     <textarea class="comment" name="messageArea" placeholder="Leave a message..."></textarea>
-                    <button type="submit">Send</button>
+                    <button type="submit">Send message</button>
                 </form>
-                <fieldset>
-                    <legend>You are welcomed to email me directly as well</legend>
-                    <p>everwisher@outlook.com</p>
-                </fieldset>
+                <div>
+                    <p>You are welcomed to email me directly as well</p>
+                    <a href="zsong22@my.centennialcollege.ca">zsong22@my.centennialcollege.ca</p>
+                </div>
             </div>
         </section>
+        <!--Contact section ends-->
     </main>
+
     <footer>
-        <p>Copyright © 2022 Johnny Zhiyang Song. </p>
-        <p>An assignment of COMP229 Webapp Application. </p>
+        <p>Copyright © 2022 Johnny Zhiyang Song</p>
+        <p>An assignment of COMP229 Webapp Application Development</p>
     </footer>
 </body>
 
