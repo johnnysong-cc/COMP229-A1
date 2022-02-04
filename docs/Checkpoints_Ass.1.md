@@ -22,7 +22,7 @@ This **Express site** must include the pages from your **Personal Portfolio** 5 
   - [x] Include an image for each Project and a short description of your role and the outcome. (2 Marks: Content).
 - [x] **Services Page** should include a short list of services you offer (e.g. general programming, web development, mobile apps, etc.). I recommend including images that make this more appealing to view. (2 Marks: Content).
 - [x] **Contact Page** should include your contact information in a panel or other construct. (1 Mark: Content).
-- [x] **Contact Page** should include a short interactive form that allows the user send you a message and provide basic contact information (First Name, Last Name, Contact Number, Email Address, Message, etc.). This form does not have to be fully functional initially. However, it should be able to capture the information entered by the user and redirect them back to the Home Page (4 Marks: Content).
+- [ ] **Contact Page** should include a short interactive form that allows the user send you a message and provide basic contact information (First Name, Last Name, Contact Number, Email Address, Message, etc.). This form does not have to be fully functional initially. However, it should be able to capture the information entered by the user and redirect them back to the Home Page (4 Marks: Content).
 
 ### 2. Portfolio site will use ExpressJS and NodeJS and your web pages have been split to use different View templates and partials by implementing the EJS templating engine and Express Routes (8 Marks: GUI, 26 Marks: Functionality):
 
@@ -45,13 +45,13 @@ This **Express site** must include the pages from your **Personal Portfolio** 5 
 
 - [x] a **comment header** for your CSS and JavaScript files that indicate: the File name, Student’s Name, StudentID, and Date, (2 Marks: Internal Documentation).
 - [x] a **section headers** for all of your HTML structure, CSS style sections, and any JavaScript functions (1 Marks: Internal Documentation)
-- [ ] code uses contextual variable names that help make the files human-readable (1 Marks: Internal Documentation)
-- [ ] inline comments that describe your GUI Design and Functionality.
+- [x] code uses contextual variable names that help make the files human-readable (1 Marks: Internal Documentation)
+- [x] inline comments that describe your GUI Design and Functionality.
   - Note: please avoid “over-commenting” (1 Marks: Internal Documentation)
 
 ### 5. Share your files on GitHub to demonstrate Version Control Best Practices and push your site to a cloud host (4 Marks: Version Control, 4 Marks: Cloud Hosting).
 
-- [ ] repository must include your code and be well structured (2 Marks: Version Control).
+- [x] repository must include your code and be well structured (2 Marks: Version Control).
 - [x] repository must include commits that demonstrate the project being updated at different stages of development – each time a major change is implemented (2 Marks: Version Control).
 - [ ] You must deploy your site to your Cloud Server using git (4 Marks: Cloud Hosting)
 
