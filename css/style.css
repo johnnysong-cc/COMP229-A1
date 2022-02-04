@@ -1,273 +1,416 @@
-/*
-Student name: Johnny Zhiyang Song
-Student ID: 301167073
-Date: Feb. 5, 2022
-*/
+/* --- General Layout ---
+------------------------- */
 
-/* --- Reset ---
----------------- */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
-big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
-center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-
-a { color: #454545; font-weight: 300;}
-a:visited { color: #454545; }
-a:hover { color: #3498db; }
-a:hover, a:active, a:focus { outline: 0; }
-a:link{text-decoration: none;}
-
-/* --- General ---
------------------- */
-p, a, ul, ol, dt, dd, table, fieldset, blockquote {
-	margin-bottom: 25px;
-	font-size: 16px;
-	line-height: 24px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	color:#757575;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-body{
-	background-color: #fff;
-	height: 100%;
-	width: 100%;
+html {
+    font-size: 14pt;
 }
 
-main{
-	position: relative;
-	z-index: 1;
-	padding: 75px 0;
+body {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    color: #454545;
+    padding: 0;
+    margin: 0;
 }
 
-/* --- Components ---
---------------------- */
-
-/* --- header --- */
-header{
-	position: fixed;
-	z-index: 50;
-	width: 100%;
-	height: 70px;
-	padding: 10px 0;
-	background-color: rgba(255,255,255,0.9);
-	box-shadow:0,0,5px,rgba(0,0,0,0.2);
+main {
+    width: 100%;
+    position: relative;
+    top: 180px;
 }
 
-/* --- logo --- */
-img#logo  {
-	position: relative;
-	float:left;
-	height:70px;
-}
-
-/* --- navigation -- */
-nav{
-	position: relative;
-	float:right;
-	margin: 0;
-}
-
-nav li{
-	display: inline-block;
-	position: relative;
-	margin: 0.5em 1em 0 1em;
-	text-align: center;
-	color:#454545;
-	font-size: 16px;
-	line-height: 30px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-nav ul:last-child {
-	margin-right:50px;
-}
-
-nav li a{
-	text-align: center;
-	font-size: 1.2em;
-	font-weight: 500;
-	transition: all 0.75s ease;
-}
-
-nav li a:hover{
-	color: #3498db;
-	transition: all 0.75s ease;
-}
-
-/* --- footer --- */
-footer{
-	position: fixed;
-	z-index: 10;
-	bottom:0;
-	width: 100%;
-	padding: 2.5%;
-	border-top: 1px solid rgb(65,65,65);
-	background-color: rgba(47,53,57,0.98);
-	color:rgb(165,165,165);
-	text-align: center;
-}
-
-footer p{
-	margin:0.5em;
-}
-
-/* --- slider --- */
-#slider{
-	background: #34b1c4;
-	width: 100%;
-	position:relative;
-	z-index: 2;
-	height: 600px;
-	padding:0;
-	text-align: center;
-}
-#slider p{
-	/* display: block; */
-	color: #fff;
-	font-size: 5em;
-	font-weight: 900;
-	line-height: 1.5em;
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-}
-
-/* --- sections --- */
 section {
-	width: 100%;
-	padding: 5em 0;
-	overflow: hidden;
+    display: block;
+    justify-content: space-between;
 }
 
-section#project,section#contact{
-	background-color: #454545;
+section.darkbg {
+    background-color: #454545;
 }
 
-section h2 {
-	/* section header */
-	text-align: center;
-	font-size: 2.5em;
-	font-weight: 200;
+a {
+    color: #454545;
+    padding: 0;
+    margin: 0;
 }
 
-h2.darkbg{
-	color: #fff;
+a:visited {
+    color: #454545;
 }
 
-section div{
-	width: 90%;
-	padding: 0 5%;
-	text-align: center;
+a:link {
+    text-decoration: none;
 }
 
-hr.lightbg{
-	width:30%;
-	height: 3px;
-	border: 0;
-	background: radial-gradient(grey,white 90%);
+a:hover {
+    color: #3498db;
 }
 
-hr.darkbg{
-	width:30%;
-	height: 3px;
-	border: 0;
-	background: radial-gradient(white,#454545 80%);
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2em;
+    color: #5c5c5c;
 }
 
-.profile{
-	padding-top: 1em;
-	padding-bottom: 1em;
+section.darkbg h2 {
+    color: #fff;
 }
 
-.profile figure{
-	display: inline-block;
-	position: relative;
-	width:20%;
-	top:50%;
-	margin:0 5%;
-	transform: translateY(-15%);
+hr {
+    margin: 1em auto;
+    margin-bottom: 3rem;
 }
 
-.profile figure figcaption{
-	text-align: center;
-	/* font-style: oblique 20deg; */
-	font-size: 1.1em;
+hr.lightbg {
+    width: 30%;
+    height: 3px;
+    border: 0;
+    background: radial-gradient(grey, white 90%);
 }
 
-.profile #skills{
-	display: inline-block;
-	width: 50%;
-	text-align: left;
+hr.darkbg {
+    width: 30%;
+    height: 3px;
+    border: 0;
+    background: radial-gradient(white, #454545 80%);
 }
 
-#skillTitle{
-	margin:0;
-	text-decoration: underline;
-	color:#454545;
-	font-size: 1.3em;
-	font-weight: 500;
+:root {
+    --width: 100vw;
 }
 
-#skills ul li span{
-	color:#404040;
-	font-weight: 500;
+.darkbg p {
+    color: #fff;
 }
 
-div#intro{
-	width: 100%;
-	position: relative;
-	background-color: #34b1c4;
-	margin: 0;
-	padding: 0;
-}
-
-div#intro p{
-	color:#fff;
-	padding: 0.5em 1.5em;
+.linkDstPlaceholder {
+    height: 50px;
 }
 
 
-/* --- contact name --- */
-#contactForm{
-	margin: 0 auto;
-	max-width: 80%;
-	padding-bottom: 40px;
-}
-input.inputLine{
-	width: 95%;
-	float:left;
-	height: 2.5em;
-	padding:0;
-	margin:20px 2%;
-	color: #aaa;
-	border: none;
-	border-bottom: 2px solid #777;
-	background-color: #404040;
-	font-size: 1.2em;
+/* --- Header ---
+----------------- */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0, 0, 5px, rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    /* overflow: hidden; */
 }
 
-textarea{
-	width: 91%;
-	height: 7em;
-	padding: 2%;
-	margin: 20px 2%;
-	float: left;
-	color: #999;
-	border: 2px solid #777;
-	border-top: none;
-	background-color: #404040;
-	font-size: 1.2em;
+div#logo {
+    display: grid;
+    gap: 0;
+    margin: 0 auto;
+    align-content: center;
+    min-width: 0;
 }
 
-button{
-	color: #fff;
-	background-color: #34b1c4;
-	font-size: 1.3em;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 0.7em 1.5em;
-	border:none;
+#logo img {
+    align-self: center;
+    padding-top: 0.25em;
+    width: 50%;
+}
+
+p#mission {
+    align-self: center;
+    font-family: cursive;
+    /* padding: 0.5em; */
+}
+
+nav {
+    width: 70%;
+    padding: 1em 5% 0 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    width: 20%;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* --- Welcome ---
+------------------ */
+
+#welcome {
+    height: 600px;
+    background-image: radial-gradient(rgba(52, 177, 196, 0.5), rgba(255, 255, 255, 0.5)), url("../img/backgroundMedicalIT.jpg");
+    background-size: cover;
+}
+
+#welcome p {
+    font-size: 4em;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 3px 5px 7px grey;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding: 0 3rem;
+    letter-spacing: 0.05em;
+}
+
+p#specialty {
+    font-size: 1.2em;
+    color: #eeeeee;
+}
+
+
+/* --- About ---
+---------------- */
+
+div#upperPart {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+p#skillTitle {
+    text-decoration: underline;
+    color: #454545;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 0.5em 0 0.5em 0;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+div#upperPart ul {
+    list-style-type: none;
+    padding-bottom: 1em;
+}
+
+div#upperPart li {
+    padding: 0.5em;
+}
+
+div#upperPart li span.catalog {
+    color: #303030;
+    font-weight: 600;
+}
+
+div#lowerPart {
+    background-color: rgb(80, 190, 225);
+    text-align: center;
+}
+
+div#content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7 1fr);
+    padding: 3em 10%;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#content-wrapper img {
+    grid-column: 1/2;
+    height: 150px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+div#content-wrapper p {
+    grid-column: 2/4;
+    align-self: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    font-size: larger;
+}
+
+div#content-wrapper article {
+    grid-column: 4/8;
+    align-self: center;
+    margin: 0 auto;
+    border-left: 1pt solid #fff;
+}
+
+div#content-wrapper article p {
+    padding: 1em 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+p#dwnlink {
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+p#dwnlink a {
+    color: #fff;
+}
+
+
+/* --- Projects and Services ---
+-------------------------------- */
+
+.module-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+div.module {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    max-height: 600px;
+    width: 360px;
+    box-shadow: 0px 0px 20px grey;
+}
+
+p.projectName {
+    margin: 0 auto;
+    padding: 5% 5% 0 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    font-size: larger;
+}
+
+p.projectRole {
+    margin: 0 auto;
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cccccc;
+}
+
+div.module-pic {
+    height: 200px;
+    width: 360px;
+}
+
+#pic1 {
+    background-image: url(../img/bloodtypegenerator.jpg);
+}
+
+#pic2 {
+    background-image: url(../img/rarebloodgroups.jpg);
+    background-position: -10% 0%;
+}
+
+#pic3 {
+    background-image: url(../img/bloodLibrary.jpg);
+    background-size: cover;
+    background-position: 0% 10%;
+}
+
+#pic4 {
+    background-image: url(../img/ExtendedBloodTyping.jpg);
+}
+
+#pic5 {
+    background-image: url(../img/PLTabTest.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#pic6 {
+    background-image: url(../img/BBMS.png);
+    background-size: contain;
+}
+
+
+/* --- Contact ---
+------------------ */
+
+#contactForm {
+    margin: 0 auto;
+    max-width: 80%;
+    padding-bottom: 40px;
+}
+
+input.inputLine {
+    width: 95%;
+    float: left;
+    height: 2.5em;
+    padding: 0;
+    margin: 50px 2%;
+    color: #aaa;
+    border: none;
+    border-bottom: 2px solid #777;
+    background-color: #404040;
+    font-size: 1.2em;
+}
+
+textarea {
+    width: 95%;
+    height: 7em;
+    padding: 2%;
+    margin: 50px 2%;
+    float: left;
+    color: #999;
+    border: 2px solid #777;
+    border-top: none;
+    background-color: #404040;
+    font-size: 1.2em;
+}
+
+button {
+    color: #fff;
+    background-color: #34b1c4;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    border: none;
+    margin: 50px 2%;
+}
+
+div#email {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#email a {
+    color: #fff;
+}
+
+
+/* --- Footer ---
+------------------ */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(47, 53, 57, 0.98);
+    color: rgb(165, 165, 165);
+    text-align: center;
+    line-height: 2rem;
+    padding: 1rem 0 0.5rem 0;
+    box-shadow: 0px -2px 10px grey;
 }

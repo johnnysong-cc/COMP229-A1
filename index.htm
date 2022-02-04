@@ -21,112 +21,131 @@
 <body>
     <!--header begins-->
     <header>
-        <div id="header" class="clearfix">
-            <div class="row" id="container">
-                <a href="index.htm"><img id="logo" src="img/logo.png" alt="logo"></a>
-                <nav id="navigation">
-                    <ul id="navList">
-                        <li><a href="#slider">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#project">My Projects</a></li>
-                        <li><a href="#service">My Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div id="logo">
+            <a href="index.htm"><img src="img/logo.png" alt="logo"></a>
+            <p id="mission">Design for fun</p>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="#profile">About Me</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <!--header ends-->
 
     <!--main part begins-->
     <main>
-        <section id="welcome">
-            <div id="slider">
-                <p>WELCOME TO MY WEBSITE</p>
-            </div>
-        </section>
+        <div id="welcome">
+            <p>WELCOME TO MY PROFILE WEBSITE</p>
+            <p id="specialty">Smart Transfusion Lab Design | Blood Service Quality Assurance | Web Development</p>
+        </div>
 
         <!--About Me section begins-->
-        <section id="about">
-            <div>
-                <h2>About Me</h2>
-                <hr class="lightbg">
+        <section class="lightbg">
+            <div id="profile" class="linkDstPlaceholder"></div>
+            <h2>About Me</h2>
+            <hr class="lightbg">
 
-                <div class="profile">
-                    <figure>
-                        <img src='img/bust.png' height=240px alt='bust'>
-                        <figcaption>Zhiyang Song</figcaption>
-                    </figure>
-                    <div id="skills">
-                        <p id="skillTitle">Highlight of Skills</p>
-                        <ul>
-                            <li><span class="catalog">Programming </span>: C#, Java, HTML5, CSS, JavaScript (ES6), VBA for Excel, Markdown</li>
-                            <li><span class="catalog">Platforms</span>: Linux, macOS, Windows, Docker, Node.js, GitHub</li>
-                            <li><span class="catalog">Database and Data Analysis</span>: Oracle PL/SQL, MongoDB, Tableau, RapidMiner, Excel/Numbers</li>
-                            <li><span class="catalog">Virtualization</span>: QEMU/KVM, libvirt, Virtual Box, Parallel Desktops</li>
-                            <li><span class="catalog">Utility Software</span>: Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Microsoft 365</li>
-                            <li><span class="catalog">Health Science Knowledge</span>: Immunology, Immunohematology, Molecular Biology, Microbiology, Clinical Laboratory Technology, Pharmacology, Pathology, Physiology</li>
-                        </ul>
-                    </div>
+            <div id="upperPart">
+                <p id="skillTitle">Highlight of Skills</p>
+                <ul>
+                    <li><span class="catalog">Programming</span>: C#, Java, HTML5, CSS, JavaScript (ES6), VBA for Excel, Markdown
+                    </li>
+                    <li><span class="catalog">Platforms</span>: Linux, macOS, Windows, Docker, Node.js, GitHub
+                    </li>
+                    <li><span class="catalog">Database and Data Analysis</span>: Oracle PL/SQL, MongoDB, Tableau, RapidMiner, Excel/Numbers</li>
+                    <li><span class="catalog">Virtualization</span>: QEMU/KVM, libvirt, Virtual Box, Parallel Desktops
+                    </li>
+                    <li><span class="catalog">Document Design Software</span>: Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Microsoft 365</li>
+                    <li><span class="catalog">Health Science Knowledge</span>: Immunology, Immunohematology, Molecular Biology, Microbiology, Clinical Laboratory Technology, Pharmacology, Pathology, Physiology
+                    </li>
+                </ul>
+            </div>
+            <div id="lowerPart">
+                <div id="content-wrapper">
+                    <img src='img/BustInCircle.png' alt='bust'>
+                    <p>Johnny Zhiyang Song</p>
+                    <article>
+                        <p>
+                            An ex-academic worker and ex-medical laboratory technologist in the first decade of career, I'm currently learning IT skills at Centennial College with the intent to pursue a new chapter of career in the interdisciplinary field of medical science and
+                            IT technologies.
+                        </p>
+                    </article>
                 </div>
+                <p id="dwnlink"><a href="docs/Resumé.pdf">Click here to download my Resumé in PDF</a></p>
             </div>
-            <div id="intro">
-                <p>An ex-academic worker and ex-medical laboratory technologist for the first decade of my career, I'm currently learning IT skills at Centennial College with the intent to pursue a new chapter of career in the interdisciplinary field of
-                    medical science and IT technologies. I believe this unique choice would bring in comparative advantage and adapt myself to a more perspective future.</p>
-                <a href="docs/Resumé.pdf">Click here to download my Resumé in PDF</a>
-            </div>
+
         </section>
         <!--About Me section ends-->
 
         <!--Project section begins-->
-        <section id="project">
+        <section id="" class="darkbg">
+            <div id="project" class="linkDstPlaceholder"></div>
             <h2 class="darkbg">Projects Done</h2>
             <hr class="darkbg">
-            <div id="project1">
-                <dt>Automatic Blood Type Generator Excel Workbook</dt>
-                <dd></dd>
-            </div>
-            <div id="project2">
-                <dt>Screening rare type of red blood cells</dt>
-                <dd></dd>
-            </div>
-            <div id="project3">
-                <dt>Establishment of a library of rare blood types for local donors</dt>
-                <dd></dd>
+            <div class="module-wrapper">
+                <div id="project1" class="module">
+                    <div id="pic1" class="module-pic"></div>
+                    <p class="projectName">Automatic Blood Type Generator</p>
+                    <p class="projectRole">Desinger and Programmer</p>
+                </div>
+                <div id="project2" class="module">
+                    <div id="pic2" class="module-pic"></div>
+                    <p class="projectName">Screening Rare Type of Red Blood Cells</p>
+                    <p class="projectRole">Chief Clinical Lab Technologist</p>
+                </div>
+                <div id="project3" class="module">
+                    <div id="pic3" class="module-pic"></div>
+                    <p class="projectName">Establishing Rare Donor Library</p>
+                    <p class="projectRole">Designer and Project Manager</p>
+                </div>
         </section>
         <!--Project section ends-->
 
         <!--Service section begins-->
-        <section id="service">
+        <section id="service" class="lightbg">
+            <div id="profile" class="linkDstPlaceholder"></div>
             <h2>Services</h2>
             <hr class="lightbg">
-            <div class="module">
-                <p>Extended RBC Typing</p>
-            </div>
-            <div class="module">
-                <p>Platelet Antibody Detection</p>
-            </div>
-            <div class="module">
-                <p>Customization of Blood Banking Online Systems</p>
+            <div class="module-wrapper">
+                <div id="service1" class="module">
+                    <div id="pic4" class="module-pic"></div>
+                    <p class="projectName">Extended RBC Typing</p>
+                </div>
+                <div id="service2" class="module">
+                    <div id="pic5" class="module-pic"></div>
+                    <p class="projectName">Platelet Antibody Testing</p>
+                </div>
+                <div id="service3" class="module">
+                    <div id="pic6" class="module-pic"></div>
+                    <p class="projectName">Customization of Blood Banking and Lab Management Systems</p>
+                </div>
             </div>
         </section>
         <!--Service section ends-->
 
         <!--Contact section begins-->
-        <section id="contact">
+        <section id="contact" class="darkbg">
+            <div id="profile" class="linkDstPlaceholder"></div>
             <div class="secTitle">
                 <h2 class="darkbg">Let's Get In Touch</h2>
-                <hr class="darkbg"></hr>
-                <form id="contactForm">
-                    <input class="inputLine" type="text" name="fullName" placeholder="Type in your full name here..." required>
-                    <input class="inputLine" type="text" name="emailAddr" placeholder="Type in your email address here..." required>
-                    <textarea class="comment" name="messageArea" placeholder="Leave a message..."></textarea>
-                    <button type="submit">Send message</button>
-                </form>
-                <div>
-                    <p>You are welcomed to email me directly as well</p>
-                    <a href="zsong22@my.centennialcollege.ca">zsong22@my.centennialcollege.ca</p>
-                </div>
+                <hr class="darkbg">
+            </div>
+            <form id="contactForm">
+                <input class="inputLine" type="text" name="fullName" placeholder="Type in your full name here..." required>
+                <input class="inputLine" type="text" name="emailAddr" placeholder="Type in your email address here..." required>
+                <textarea class="comment" name="messageArea" placeholder="Leave a message..."></textarea>
+                <button type="submit">Send message</button>
+            </form>
+            <div id="email">
+                <p>You are welcomed to email me directly as well</p>
+                <a href="zsong22@my.centennialcollege.ca">
+                    zsong22@my.centennialcollege.ca
+                </a>
             </div>
         </section>
         <!--Contact section ends-->
