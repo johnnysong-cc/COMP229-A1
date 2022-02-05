@@ -1,0 +1,32 @@
+{
+    "name": "comp229-a1",
+    "version": "1.0.0",
+    "description": "conversion to an Express-driven project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js --exec node -e js --experimental-json-modules"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnnysong-cc/COMP229-A1.git"
+    },
+    "keywords": [
+        "COMP229",
+        "Web",
+        "Application",
+        "Development"
+    ],
+    "author": "Johnny Zhiyang Song",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/johnnysong-cc/COMP229-A1/issues"
+    },
+    "homepage": "https://github.com/johnnysong-cc/COMP229-A1#readme",
+    "devDependencies": {
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "ejs": "^3.1.6"
+    }
+}
