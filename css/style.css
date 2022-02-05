@@ -1,3 +1,12 @@
+/* Student name: Johnny Zhiyang Song */
+
+
+/* Student ID: 301167073 */
+
+
+/* Date: Feb. 5, 2022 */
+
+
 /* --- General Layout ---
 ------------------------- */
 
@@ -57,7 +66,7 @@ h2 {
     text-align: center;
     font-size: 2.5em;
     font-weight: 200;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     padding-top: 2em;
     color: #5c5c5c;
 }
@@ -149,7 +158,7 @@ nav ul li {
     width: 20%;
     font-size: 1.3em;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -158,7 +167,7 @@ nav ul li {
 
 #welcome {
     height: 600px;
-    background-image: radial-gradient(rgba(52, 177, 196, 0.5), rgba(255, 255, 255, 0.5)), url("../img/backgroundMedicalIT.jpg");
+    background-image: radial-gradient( rgba(52, 177, 196, 0.5), rgba(255, 255, 255, 0.5)), url("../img/backgroundMedicalIT.jpg");
     background-size: cover;
 }
 
@@ -226,7 +235,7 @@ div#content-wrapper {
     grid-template-columns: repeat(7 1fr);
     padding: 3em 10%;
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 div#content-wrapper img {
@@ -253,7 +262,7 @@ div#content-wrapper article {
 
 div#content-wrapper article p {
     padding: 1em 2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: larger;
     font-weight: 100;
     line-height: 1.3em;
@@ -292,8 +301,8 @@ div.module {
 
 p.projectName {
     margin: 0 auto;
-    padding: 5% 5% 0 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5% 2% 0 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 0.07em;
     font-size: larger;
@@ -302,7 +311,7 @@ p.projectName {
 p.projectRole {
     margin: 0 auto;
     padding: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #cccccc;
 }
 
@@ -392,7 +401,7 @@ div#email {
     margin: 0 auto;
     text-align: center;
     line-height: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 div#email a {
