@@ -5,7 +5,7 @@ const routes = require("./routes/")
 const app = express();
 const port = 3000;
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Express server starts listening on port ${port}.`);
 });
 
