@@ -22,10 +22,9 @@
         "url": "https://github.com/johnnysong-cc/COMP229-A1/issues"
     },
     "homepage": "https://github.com/johnnysong-cc/COMP229-A1#readme",
-    "devDependencies": {
-        "express": "^4.17.2"
-    },
+    "devDependencies": {},
     "dependencies": {
+        "express": "^4.17.2",
         "ejs": "^3.1.6",
         "nodemon": "^2.0.15"
     }
