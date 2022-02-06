@@ -4,7 +4,7 @@
     "description": "conversion to an Express-driven project",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon index.js --exec node -e js --experimental-json-modules"
+        "start": "nodemon index.js --exec node -e js --experimental-json-modules"
     },
     "repository": {
         "type": "git",
