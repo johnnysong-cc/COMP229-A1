@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment
+        <%= assNumber %>:
+            <%= semester %>, rendered by
+                <%= engine %>
+    </title>
+    <!--Student name: Johnny Zhiyang Song-->
+    <!--Student ID: 301167073-->
+    <!--Date: Feb. 5, 2022-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--web icon-->
+    <link rel="icon" href="img/logo.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--JavaScrit-->
+    <script src="script/script.js" async defer></script>
+</head>
+
+<body>
+    <%- include("../partials/header.ejs") %>
+
+
+        <!--main part begins-->
+        <main>
+            <div id="welcome">
+                <p>WELCOME TO MY PROFILE WEBSITE</p>
+                <p id="specialty">Smart Transfusion Lab Design | Blood Service Quality Assurance | Web Development</p>
+            </div>
+
+            <!--About Me section begins-->
+            <section class="lightbg">
+                <div id="profile" class="linkDstPlaceholder"></div>
+                <h2>About Me</h2>
+                <hr class="lightbg">
+
+                <div id="upperPart">
+                    <p id="skillTitle">Highlight of Skills</p>
+                    <ul>
+                        <li><span class="catalog">Programming</span>: C#, Java, HTML5, CSS, JavaScript (ES6), VBA for Excel, Markdown
+                        </li>
+                        <li><span class="catalog">Platforms</span>: Linux, macOS, Windows, Docker, Node.js, GitHub
+                        </li>
+                        <li><span class="catalog">Database and Data Analysis</span>: Oracle PL/SQL, MongoDB, Tableau, RapidMiner, Excel/Numbers</li>
+                        <li><span class="catalog">Virtualization</span>: QEMU/KVM, libvirt, Virtual Box, Parallel Desktops
+                        </li>
+                        <li><span class="catalog">Document Design Software</span>: Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Microsoft 365</li>
+                        <li><span class="catalog">Health Science Knowledge</span>: Immunology, Immunohematology, Molecular Biology, Microbiology, Clinical Laboratory Technology, Pharmacology, Pathology, Physiology
+                        </li>
+                    </ul>
+                </div>
+                <div id="lowerPart">
+                    <div id="content-wrapper">
+                        <img src='img/BustInCircle.png' alt='bust'>
+                        <p>Johnny Zhiyang Song</p>
+                        <article>
+                            <p>
+                                An ex-academic worker and ex-medical laboratory technologist in the first decade of career, I'm currently learning IT skills at Centennial College with the intent to pursue a new chapter of career in the interdisciplinary field of medical science and
+                                IT technologies.
+                            </p>
+                        </article>
+                    </div>
+                    <p id="dwnlink"><a href="docs/Resumé.pdf">Click here to download my Resumé in PDF</a></p>
+                </div>
+
+            </section>
+            <!--About Me section ends-->
+
+            <!--Project section begins-->
+            <section id="" class="darkbg">
+                <div id="projects" class="linkDstPlaceholder"></div>
+                <h2 class="darkbg">Projects Done</h2>
+                <hr class="darkbg">
+                <div class="module-wrapper">
+                    <div id="project1" class="module">
+                        <div id="pic1" class="module-pic"></div>
+                        <p class="projectName">Automatic Blood Type Generator</p>
+                        <p class="projectRole">Designer and Programmer</p>
+                    </div>
+                    <div id="project2" class="module">
+                        <div id="pic2" class="module-pic"></div>
+                        <p class="projectName">Screening Rare Type of Red Blood Cells</p>
+                        <p class="projectRole">Chief Clinical Lab Technologist</p>
+                    </div>
+                    <div id="project3" class="module">
+                        <div id="pic3" class="module-pic"></div>
+                        <p class="projectName">Establishing Rare Donor Library</p>
+                        <p class="projectRole">Designer and Project Manager</p>
+                    </div>
+            </section>
+            <!--Project section ends-->
+
+            <!--Service section begins-->
+            <section id="service" class="lightbg">
+                <div id="services" class="linkDstPlaceholder"></div>
+                <h2>Services</h2>
+                <hr class="lightbg">
+                <div class="module-wrapper">
+                    <div id="service1" class="module">
+                        <div id="pic4" class="module-pic"></div>
+                        <p class="projectName">Extended RBC Typing</p>
+                    </div>
+                    <div id="service2" class="module">
+                        <div id="pic5" class="module-pic"></div>
+                        <p class="projectName">Platelet Antibody Testing</p>
+                    </div>
+                    <div id="service3" class="module">
+                        <div id="pic6" class="module-pic"></div>
+                        <p class="projectName">Customization of Blood Banking and Lab Management Systems</p>
+                    </div>
+                </div>
+            </section>
+            <!--Service section ends-->
+
+            <!--Contact section begins-->
+            <section id="contact" class="darkbg">
+                <div id="profile" class="linkDstPlaceholder"></div>
+                <div class="secTitle">
+                    <h2 class="darkbg">Let's Get In Touch</h2>
+                    <hr class="darkbg">
+                </div>
+                <form id="contactForm" action="" method="get">
+                    <input class="inputLine" type="text" name="fullName" placeholder="Type in your full name here..." required>
+                    <input class="inputLine" type="text" name="emailAddr" placeholder="Type in your email address here..." required>
+                    <textarea class="comment" name="messageArea" placeholder="Leave a message..."></textarea>
+                    <button type="submit">Send message</button>
+                </form>
+                <div id="email">
+                    <p>You are welcomed to email me directly as well</p>
+                    <a href="zsong22@my.centennialcollege.ca">
+                    zsong22@my.centennialcollege.ca
+                </a>
+                </div>
+            </section>
+            <!--Contact section ends-->
+        </main>
+
+        <%- include("../partials/footer.ejs") %>
+</body>
+
+</html>
