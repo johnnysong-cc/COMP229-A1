@@ -53,12 +53,12 @@ This **Express site** must include the pages from your **Personal Portfolio** 5 
 
 - [x] repository must include your code and be well structured (2 Marks: Version Control).
 - [x] repository must include commits that demonstrate the project being updated at different stages of development – each time a major change is implemented (2 Marks: Version Control).
-- [ ] You must deploy your site to your Cloud Server using git (4 Marks: Cloud Hosting)
+- [x] You must deploy your site to your Cloud Server using git (4 Marks: Cloud Hosting)
 
 ### 6. Create a Short Video presentation on YouTube or another streaming provider. You must include a short PowerPoint (or Google Slides) Slide Deck that includes a single slide to start your video (10 Marks: Video)
 
-- [ ] The first (and only) Slide of your Slide Deck must include a current image of you (no avatars allowed) that is displayed appropriately on the page. You must also include your Full Name, Student ID, the Course Code, Course Name, and your Assignment information. (2 Marks: video)
-- [ ] You will demonstrate your site’s functionality. You must show each page working properly (2 Marks: Video)
-- [ ] You will describe the code in your app.js file that drives the functionality of your site (2 Marks: Video)
-- [ ] Sound for your Video must at an appropriate level so that your voice may be clearly heard, and your screen resolution should be set so that your code and site details are clearly visible (2 Marks: Video)
-- [ ] Your Short Video should run no more than 5 minutes (2 Marks: Video)
+- [x] The first (and only) Slide of your Slide Deck must include a current image of you (no avatars allowed) that is displayed appropriately on the page. You must also include your Full Name, Student ID, the Course Code, Course Name, and your Assignment information. (2 Marks: video)
+- [x] You will demonstrate your site’s functionality. You must show each page working properly (2 Marks: Video)
+- [x] You will describe the code in your app.js file that drives the functionality of your site (2 Marks: Video)
+- [x] Sound for your Video must at an appropriate level so that your voice may be clearly heard, and your screen resolution should be set so that your code and site details are clearly visible (2 Marks: Video)
+- [x] Your Short Video should run no more than 5 minutes (2 Marks: Video)
