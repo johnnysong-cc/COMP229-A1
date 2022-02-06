@@ -26,20 +26,20 @@ This **Express site** must include the pages from your **Personal Portfolio** 5 
 
 ### 2. Portfolio site will use ExpressJS and NodeJS and your web pages have been split to use different View templates and partials by implementing the EJS templating engine and Express Routes (8 Marks: GUI, 26 Marks: Functionality):
 
-- [ ] include at least 2 View templates
+- [x] include at least 2 View templates
   - one for your Home Page
   - one for your Contact Me page
   - Note: You may include additional templates as needed to accommodate other site pages (13 Marks: Functionality, 8 Marks: GUI)
-- [ ] An Express Route must exist for each page of your site
+- [x] An Express Route must exist for each page of your site
   - Note: You will need to use: the `router.get(path, callback(req, res, next))` structure with a `res.render(view, locals)` call to render each view (13 Marks: Functionality)
 
 ### 3. Site will use the new structure created by the Express Generator. Your site files will be migrated to work within the public, routes and views folders (26 Marks: Site Structure):
 
-- [ ] Generate your site structure with the Express Generator. Note: You must use the -e option to ensure that you implement the EJS templating engine for Express (9 Marks: Site Structure).
-- [ ] Your JavaScript, CSS and Multimedia Asset Files should be moved to separate folders within the public folder. Using the Twitter Bootstrap CSS framework is strongly recommended, though not required. Note: the public folder is part of the path and does not have to be referenced (6 Marks: Site Structure).
-- [ ] You will define routes for all of your site pages in the index.js file in your routes folder (2 Mark: Site Structure).
-- [ ] Your views folder will contain your EJS page templates. You will create a separate folder named partials for all of your partial EJS files. You will need several partials including header.ejs, content.ejs, footer.ejs and others. (6 Marks: Site Structure).
-- [ ] All Your Code (HTML, CSS, JavaScript, jQuery, etc.) is error free (3 Marks: Site Structure).
+- [x] Generate your site structure with the Express Generator. Note: You must use the -e option to ensure that you implement the EJS templating engine for Express (9 Marks: Site Structure).
+- [x] Your JavaScript, CSS and Multimedia Asset Files should be moved to separate folders within the public folder. Using the Twitter Bootstrap CSS framework is strongly recommended, though not required. Note: the public folder is part of the path and does not have to be referenced (6 Marks: Site Structure).
+- [x] You will define routes for all of your site pages in the index.js file in your routes folder (2 Mark: Site Structure).
+- [x] Your views folder will contain your EJS page templates. You will create a separate folder named partials for all of your partial EJS files. You will need several partials including header.ejs, content.ejs, footer.ejs and others. (6 Marks: Site Structure).
+- [x] All Your Code (HTML, CSS, JavaScript, jQuery, etc.) is error free (3 Marks: Site Structure).
 
 ### 4. Include Internal Documentation for your site (5 Marks: Internal Documentation):
 
@@ -59,6 +59,6 @@ This **Express site** must include the pages from your **Personal Portfolio** 5 
 
 - [ ] The first (and only) Slide of your Slide Deck must include a current image of you (no avatars allowed) that is displayed appropriately on the page. You must also include your Full Name, Student ID, the Course Code, Course Name, and your Assignment information. (2 Marks: video)
 - [ ] You will demonstrate your site’s functionality. You must show each page working properly (2 Marks: Video)
-- [ ] You will describe the code in your app.js file that drives the functionality of your site (2 Marks Video).
-- [ ] Sound for your Video must at an appropriate level so that your voice may be clearly heard, and your screen resolution should be set so that your code and site details are clearly visible (2 Marks: Video).
-- [ ] Your Short Video should run no more than 5 minutes (2 Marks: Video).
+- [ ] You will describe the code in your app.js file that drives the functionality of your site (2 Marks: Video)
+- [ ] Sound for your Video must at an appropriate level so that your voice may be clearly heard, and your screen resolution should be set so that your code and site details are clearly visible (2 Marks: Video)
+- [ ] Your Short Video should run no more than 5 minutes (2 Marks: Video)

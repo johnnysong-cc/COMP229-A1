@@ -2,7 +2,11 @@
 <html>
 
 <head>
-    <title>Assignment 1: COMP229-003 W22</title>
+    <title>Assignment
+        <%= assNumber %>:
+            <%= semester %>, rendered by
+                <%= engine %>
+    </title>
     <!--Student name: Johnny Zhiyang Song-->
     <!--Student ID: 301167073-->
     <!--Date: Feb. 5, 2022-->
@@ -27,11 +31,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.htm">Home</a></li>
-                <li><a href="#profile">About Me</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#service">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="index.htm#profile">About Me</a></li>
+                <li><a href="index.htm#projects">Projects</a></li>
+                <li><a href="index.htm#services">Services</a></li>
+                <li><a href="index.htm#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -84,14 +88,14 @@
 
         <!--Project section begins-->
         <section id="" class="darkbg">
-            <div id="project" class="linkDstPlaceholder"></div>
+            <div id="projects" class="linkDstPlaceholder"></div>
             <h2 class="darkbg">Projects Done</h2>
             <hr class="darkbg">
             <div class="module-wrapper">
                 <div id="project1" class="module">
                     <div id="pic1" class="module-pic"></div>
                     <p class="projectName">Automatic Blood Type Generator</p>
-                    <p class="projectRole">Desinger and Programmer</p>
+                    <p class="projectRole">Designer and Programmer</p>
                 </div>
                 <div id="project2" class="module">
                     <div id="pic2" class="module-pic"></div>
@@ -108,7 +112,7 @@
 
         <!--Service section begins-->
         <section id="service" class="lightbg">
-            <div id="profile" class="linkDstPlaceholder"></div>
+            <div id="services" class="linkDstPlaceholder"></div>
             <h2>Services</h2>
             <hr class="lightbg">
             <div class="module-wrapper">
